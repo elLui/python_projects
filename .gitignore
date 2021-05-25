@@ -156,3 +156,5 @@ Thumbs.db
 
 # added config.py
 config.py
+.env
+*.env
