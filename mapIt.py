@@ -1,6 +1,6 @@
 #! python3
 
-# rudimentry address lookup using maps.google
+# rudimentary address lookup using maps.google
 # prior to using must install pyperclip :: pip3 install pyperclip
 
 # mapIt.py - use google maps to find an address either from the cli or clipboard (pyperclip)
