@@ -7,8 +7,7 @@
 
 import webbrowser, sys, pyperclip
 
-
-# look for an address on the cli 
+# look for an address on the cli
 if len(sys.argv) > 1:
     # join address as an array of strings :: ' ' denotes a space between each argument
     address = ' '.join(sys.argv[1:])
@@ -19,4 +18,3 @@ else:
 
 # open default webbrowser with contents of address
 webbrowser.open_new('https://www.google.com/maps/place/' + address)
-
